@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: papayawhip;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: fit-content;
+  max-width: 69rem;
+  justify-content: center;
+  align-items: stretch;
+  text-align: justify;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.movie {
+  width: 100%;
+  max-width: 19rem;
+  background-color: #393939;
+  border-radius: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+
+img {
+  width: inherit;
+  max-width: inherit;
+  margin: 0 auto;
+  aspect-ratio: 27/40;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(103, 255, 247);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: inline-flex;
+}
+
+a {
+  text-decoration: none;
+  width: inherit;
+  max-width: inherit;
+}
+
+.movie:hover {
+  transform: scale(1.05);
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  width: inherit;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: lightseagreen;
+  vertical-align: text-bottom;
+  color: rgb(30, 65, 112);
+  transition: 0.3s ease;
+}
+
+button:hover,
+a:hover + button,
+a:hover + h4 + h4 + a button {
+  cursor: pointer;
+  background-color: palegreen;
+}
+
+.SFW {
+  display: none;
+}
+
+.NSFW {
+  position: absolute;
+  left: 0%;
+  transform: rotate(-30deg);
+  background-color: maroon;
+  border: 1px solid papayawhip;
+  font-weight: 700;
+  color: papayawhip;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+footer {
+  text-align: center;
+}

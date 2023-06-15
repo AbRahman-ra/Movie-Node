@@ -1,0 +1,134 @@
+[
+  {
+    "id": 0,
+    "movieName": "The Shawshank Redemption",
+    "imageName": "shawshank.jpg",
+    "alt": "The movie poster is showing the two movie heros Tim Robbins & Morgan Freeman looking forward, the images were taken from an angle. while in the same poster just under the image is the movie title and beneath it lies a gladiator looking to the sky",
+    "category": "Drama",
+    "movieDescription": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
+    "releaseYear": 1994,
+    "rating": 9.3,
+    "SFW": true
+  },
+  {
+    "id": 1,
+    "movieName": "The Godfather",
+    "imageName": "godfather.jpg",
+    "alt": "Sitting luxurious",
+    "category": "Crime, Drama",
+    "movieDescription": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "releaseYear": 1972,
+    "rating": 9.2,
+    "SFW": false
+  },
+  {
+    "id": 2,
+    "movieName": "Pulp Fiction",
+    "imageName": "pulp-fiction.png",
+    "alt": "a woman laying on a bed smoking a cigarette and holding a gun.",
+    "category": "Crime, Drama",
+    "movieDescription": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "releaseYear": 1994,
+    "rating": 8.9,
+    "SFW": true
+  },
+  {
+    "id": 3,
+    "movieName": "The Wolf of Wall Street",
+    "imageName": "wolf-wall-street.jpg",
+    "alt": "a man in a suit and tie standing in front of a crowd of people & strippers.",
+    "category": "Biography, Comedy, Crime",
+    "movieDescription": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+    "releaseYear": 2013,
+    "rating": 8.2,
+    "SFW": false
+  },
+  {
+    "id": 4,
+    "movieName": "Forrest Gump",
+    "imageName": "forrest-gump.jpg",
+    "alt": "a man sitting on a bench, image taken from behind",
+    "category": "Drama, Romance",
+    "movieDescription": "The presidencies of Kennedy to Nixon, seen through the eyes of an intellectually disabled man, Forrest Gump.",
+    "releaseYear": 1994,
+    "rating": 8.8,
+    "SFW": true
+  },
+  {
+    "id": 5,
+    "movieName": "The Dark Knight",
+    "imageName": "dark-knight.jpg",
+    "alt": "Batman standing in front of a burning tower",
+    "category": "Action, Crime, Drama",
+    "movieDescription": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham City, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "releaseYear": 2008,
+    "rating": 9.0,
+    "SFW": true
+  },
+  {
+    "id": 6,
+    "movieName": "Oppenheimer",
+    "imageName": "oppenheimer.jpg",
+    "alt": "a movie poster with a man in a suit and tie. Standingcand wearing a hat that hides his eyes. In a red flaming background",
+    "category": "Biography, Drama, History",
+    "movieDescription": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "releaseYear": 2023,
+    "rating": "NA",
+    "SFW": false
+  },
+  {
+    "id": 7,
+    "movieName": "Inception",
+    "imageName": "inception.jpg",
+    "alt": "5 men and a woman standing in a street in night and holding guns. There are trees & buildings around them. While the sky is a top view of buildings",
+    "category": "Action, Adventure, Sci-Fi",
+    "movieDescription": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "releaseYear": 2010,
+    "rating": 8.8,
+    "SFW": true
+  },
+  {
+    "id": 8,
+    "movieName": "Interstellar",
+    "imageName": "interstellar.jpg",
+    "alt": "a man in a space suit standing in front of a snowy mountain.",
+    "category": "Adventure, Drama, Sci-Fi",
+    "movieDescription": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+    "releaseYear": 2014,
+    "rating": 8.6,
+    "SFW": true
+  },
+  {
+    "id": 9,
+    "movieName": "Good Fellas",
+    "imageName": "good-fellas.jpg",
+    "alt": "3 men looking to the camera with different angles. In a dark background",
+    "category": "Biography, Crime, Drama",
+    "movieDescription": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
+    "releaseYear": 1990,
+    "rating": 8.7,
+    "SFW": false
+  },
+  {
+    "id": 10,
+    "movieName": "The Intouchables",
+    "imageName": "intouchables.jpg",
+    "alt": "An african guy with a wide smile and a caucasian old man with quieter smile are looking to the camera, the 2 men are the movie heros. Where Omar Sy is the african guy and François Cluzet is the caucasian old man",
+    "category": "Biography, Comedy, Drama",
+    "movieDescription": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+    "releaseYear": 2011,
+    "rating": 8.5,
+    "SFW": true
+  },
+  {
+    "id": 11,
+    "movieName": "Despicable Me",
+    "imageName": "despicable-me.jpg",
+    "alt": "A man in minions",
+    "category": "Animation, Adventure, Comedy",
+    "movieDescription": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better",
+    "releaseYear": 2010,
+    "rating": 7.6,
+    "SFW": true
+  }
+]

@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: papayawhip;
+  background-color: black;
+  display: flex;
+  width: fit-content;
+  max-width: 60rem;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+.movie-inside {
+  width: 100%;
+  max-width: 35rem;
+  background-color: #393939;
+  border-radius: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.img-inside {
+  width: inherit;
+  max-width: inherit;
+  margin: 0 auto;
+}
+
+.SFW {
+  display: none;
+}
+
+.NSFW {
+  position: absolute;
+  left: 0%;
+  transform: rotate(-30deg);
+  background-color: maroon;
+  border: 1px solid papayawhip;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: papayawhip;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  opacity: 0.15;
+  height: 0.15rem;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.movie-inside-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /*outline: 2px solid crimson;*/
+}
+
+.released,
+.rating {
+  text-align: start;
+  padding: 1rem 0;
+}
+
+.released h3,
+.rating h3 {
+  margin-top: 0;
+}
+
+.category,
+h3 {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+span,
+p {
+  font-size: 1.1rem;
+}

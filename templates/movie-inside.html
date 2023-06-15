@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/movie.css" />
+    <link rel="icon" href="images/favicon.png" type="png" />
+    <title>{movieName} - Movie Info</title>
+  </head>
+  <body>
+    <section class="movie-inside">
+      <h1>{movieName}</h1>
+      <span class="{SFW}">NSFW 🔥</span>
+      <img src="images/{imageName}" alt="{alt}" class="img-inside" />
+      <h3 class="category">Categories 🏷️</h3>
+      <p class="category">{category}</p>
+      <hr />
+      <section class="movie-inside-info">
+        <section class="released">
+          <h3>Released ⌛</h3>
+          <span class="releaseYear">{releaseYear}</span>
+        </section>
+        <section class="rating">
+          <h3>Rating ⭐</h3>
+          <span>{rating}</span>
+        </section>
+      </section>
+      <hr />
+      <h3>Movie Description 📰</h3>
+      <p>{movieDescription}</p>
+    </section>
+  </body>
+</html>
