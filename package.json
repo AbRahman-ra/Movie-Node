@@ -100,11 +100,11 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start-production": "NODE_ENV=production nodemon app.js"
+    "start-production": "NODE_ENV=production nodemon app.js",
+    "start-dev": "NODE_ENV=development nodemon app.js"
   },
   "author": "Abdurrahman Tantawi",
   "license": "ISC"
