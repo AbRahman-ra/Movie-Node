@@ -101,6 +101,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "build-production": "npm i",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start-production": "NODE_ENV=production nodemon app.js",
