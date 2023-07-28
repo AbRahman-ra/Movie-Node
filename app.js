@@ -4,6 +4,8 @@ const httpServer = require("http");
 const url = require("url");
 const express = require("express");
 const app = express();
+require("dotenv").config("./.env");
+const PORT = process.env.PORT || 3000;
 
 // INITIALIZATION OF DOCUMENTS
 const indexTemplate = fileSystem.readFileSync(
@@ -53,8 +55,8 @@ app.use("/css", express.static(__dirname + "public/css"));
 app.use("/images", express.static(__dirname + "public/images"));
 app.use("/js", express.static(__dirname + "public/js"));
 
-app.listen(8000, () => {
-  console.log("Server is running on port 8000");
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 app.get("/", (req, res) => {
